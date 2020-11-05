@@ -420,7 +420,7 @@ client.on('message', message => {
 // Reacciones Test
 client.on('message', message => {
   if(message.content.startsWith(`${PREFIX}invitar`)) { // Si el mensaje empieza con ?invitar:
-    message.channel.send('Invítame a tu servidor dándole al sgte link: https://discord.com/api/oauth2/authorize?client_id=766738826663165973&permissions=8&scope=bot') // Enviará este mensaje.
+    message.channel.send('Invítame a tu servidor dándole al sgte link: ???') // Enviará este mensaje.
   }
 });
 
@@ -464,7 +464,7 @@ client.on('message', message => {
     .addField('Servidores en donde estoy:', '`5`', false)
     .addField('Desarrollador:', '`oBal0n_#1864`', false)
     .addField('¿Handler?', '`Nope.`', false)
-    .setThumbnail(`https://cdn.discordapp.com/avatars/766738826663165973/e6121de9a69a6d9fa5a4347b241d9481.webp`)
+    .setThumbnail(`???`)
     .setFooter('Sí.');
     message.channel.send(clipo)
   }
