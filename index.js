@@ -513,4 +513,4 @@ client.on('message', async message => {
 message.channel.send(iconoEmbed) // Enviará el mensaje embed.
 	}
 });
-client.login(token)
+client.login(process.env.TOKEN)
